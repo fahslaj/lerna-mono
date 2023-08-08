@@ -14,11 +14,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       {\
         "name": "root",\
         "reference": "workspace:."\
+      },\
+      {\
+        "name": "create-version-matrix",\
+        "reference": "workspace:packages/create-version-matrix"\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
+      ["create-version-matrix", ["workspace:packages/create-version-matrix"]],\
       ["root", ["workspace:."]]\
     ],\
     "fallbackPool": [\
@@ -1527,6 +1532,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["path-type", "npm:4.0.0"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["create-version-matrix", [\
+        ["workspace:packages/create-version-matrix", {\
+          "packageLocation": "./packages/create-version-matrix/",\
+          "packageDependencies": [\
+            ["create-version-matrix", "workspace:packages/create-version-matrix"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["cross-spawn", [\
