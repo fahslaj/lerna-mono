@@ -21,6 +21,7 @@ void yargs
           description: 'the dependency name',
         }),
     async (argv) => {
+      console.log(`Getting versions of ${argv.pkg}...`);
       const versions = await execa(`npm view ${argv.pkg} versions --json`);
       const versionsResult = JSON.parse(
         new String(versions).toString()
