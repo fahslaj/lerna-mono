@@ -19,7 +19,7 @@
     "url": "git+https://github.com/fahslaj/lerna-mono.git"
   },
   "scripts": {
-    "prepack": "build",
+    "prepack": "yarn build",
     "build": "tsc",
     "lint": "eslint ./lib",
     "test": "yarn build && version-matrix print"
@@ -37,5 +37,6 @@
     "@typescript-eslint/parser": "^6.3.0",
     "eslint": "^8.34.0",
     "typescript": "^5.1.6"
-  }
+  },
+  "gitHead": "a9a0a3de648b7588b5861d97290a8ce07ec27256"
 }
