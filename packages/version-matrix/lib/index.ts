@@ -24,7 +24,7 @@ void yargs
       console.log(`Getting versions of ${argv.pkg}...`);
       const versions = await execa(`npm view ${argv.pkg} versions --json`);
       const versionsResult = JSON.parse(
-        new String(versions).toString()
+        new String(versions).toString(),
       ) as string[];
 
       const versionSupport: Record<string, string> = {};
@@ -40,20 +40,23 @@ void yargs
               .replace(/"/g, '');
             console.log(`Checking ${--i} versions...`);
             versionSupport[v] = str.length > 0 ? str : '<none>';
-          }
-        )
+          },
+        ),
       );
 
       await Promise.all(promises);
 
-      const output: Record<string, string> = versionsResult.reduce((acc, v) => {
-        acc[v] = versionSupport[v];
-        return acc;
-      }, {} as Record<string, string>);
+      const output: Record<string, string> = versionsResult.reduce(
+        (acc, v) => {
+          acc[v] = versionSupport[v];
+          return acc;
+        },
+        {} as Record<string, string>,
+      );
 
       console.log(output);
       console.log('\nDone!\n');
-    }
+    },
   )
   .help()
   .parse();

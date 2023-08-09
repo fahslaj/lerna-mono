@@ -5,29 +5,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.0](https://github.com/fahslaj/lerna-mono/compare/v0.1.1...v0.2.0) (2023-08-09)
 
-
 ### Features
 
-* **version-matrix:** log getting versions ([f27f3f4](https://github.com/fahslaj/lerna-mono/commit/f27f3f446797d6d846571c1c9ecc89645b954363))
-
-
+- **version-matrix:** log getting versions ([f27f3f4](https://github.com/fahslaj/lerna-mono/commit/f27f3f446797d6d846571c1c9ecc89645b954363))
 
 ## [0.1.1](https://github.com/fahslaj/lerna-mono/compare/v0.1.0...v0.1.1) (2023-08-09)
 
 **Note:** Version bump only for package root
 
-
-
-
-
 ## [0.1.0](https://github.com/fahslaj/lerna-mono/compare/v0.0.4...v0.1.0) (2023-08-09)
-
 
 ### Features
 
-* **version-matrix:** add Done logging ([c3dd7d9](https://github.com/fahslaj/lerna-mono/commit/c3dd7d95d108d57f88a5a24c7803a72ad43361b8))
-
-
+- **version-matrix:** add Done logging ([c3dd7d9](https://github.com/fahslaj/lerna-mono/commit/c3dd7d95d108d57f88a5a24c7803a72ad43361b8))
 
 ## [0.0.4](https://github.com/fahslaj/lerna-mono/compare/v0.0.3...v0.0.4) (2023-08-09)
 

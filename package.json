@@ -4,10 +4,15 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write ."
+  },
   "devDependencies": {
     "@yarnpkg/sdks": "^2.4.2",
     "conventional-changelog-conventionalcommits": "^6.1.0",
-    "lerna": "^7.1.4"
+    "lerna": "^7.1.4",
+    "prettier": "^3.0.1"
   },
   "packageManager": "yarn@3.6.1"
 }

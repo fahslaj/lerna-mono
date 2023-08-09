@@ -35,7 +35,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@yarnpkg/sdks", "npm:2.7.1"],\
             ["conventional-changelog-conventionalcommits", "npm:6.1.0"],\
-            ["lerna", "npm:7.1.4"]\
+            ["lerna", "npm:7.1.4"],\
+            ["prettier", "npm:3.0.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -5802,6 +5803,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prettier", [\
+        ["npm:3.0.1", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-3.0.1-d00deab00c-e1f3f16c7f.zip/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:3.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["pretty-bytes", [\
         ["npm:5.6.0", {\
           "packageLocation": "./.yarn/cache/pretty-bytes-npm-5.6.0-0061079c9f-9c082500d1.zip/node_modules/pretty-bytes/",\
@@ -6249,7 +6259,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["root", "workspace:."],\
             ["@yarnpkg/sdks", "npm:2.7.1"],\
             ["conventional-changelog-conventionalcommits", "npm:6.1.0"],\
-            ["lerna", "npm:7.1.4"]\
+            ["lerna", "npm:7.1.4"],\
+            ["prettier", "npm:3.0.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
