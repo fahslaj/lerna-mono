@@ -55,7 +55,7 @@ void yargs
       );
 
       console.log(output);
-      console.log('\nDone!\n');
+      console.log('\n** Done! **\n');
     },
   )
   .help()
