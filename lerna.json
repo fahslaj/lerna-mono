@@ -8,5 +8,6 @@
       "forcePublish": true,
       "createRelease": "github"
     }
-  }
+  },
+  "loglevel": "silly"
 }
