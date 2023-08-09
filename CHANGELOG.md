@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/fahslaj/lerna-mono/compare/v0.2.0...v0.2.1) (2023-08-09)
+
+
+### Bug Fixes
+
+* **version-matrix:** fix done message ([622eb86](https://github.com/fahslaj/lerna-mono/commit/622eb86a134819fef4317eeae4b3bd9233f273fc))
+
+
+
 ## [0.2.0](https://github.com/fahslaj/lerna-mono/compare/v0.1.1...v0.2.0) (2023-08-09)
 
 ### Features
