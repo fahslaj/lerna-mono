@@ -1,7 +1,0 @@
-{
-  "name": "create-version-matrix",
-  "private": true,
-  "scripts": {
-    "start": "node versions.js"
-  }
-}

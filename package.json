@@ -5,6 +5,7 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@yarnpkg/sdks": "^2.4.2",
     "lerna": "^7.1.4"
   },
   "packageManager": "yarn@3.6.1"
