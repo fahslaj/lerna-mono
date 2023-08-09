@@ -1,6 +1,6 @@
 {
   "name": "@fahslaj/version-matrix",
-  "version": "0.2.16",
+  "version": "0.2.17",
   "description": "Outputs a version matrix outlining compatibility between a package and a specified one of its dependencies.",
   "author": "Austin Fahsl <austin@fahsl.io>",
   "homepage": "https://github.com/fahslaj/lerna-mono/tree/main/packages/version-matrix",
