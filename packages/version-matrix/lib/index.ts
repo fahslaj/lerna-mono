@@ -51,6 +51,7 @@ void yargs
       }, {} as Record<string, string>);
 
       console.log(output);
+      console.log('\nDone!\n');
     }
   )
   .help()
